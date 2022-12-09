@@ -17,11 +17,18 @@ button {
   background: #5f9341;
   color: white;
   padding: 10px 20px;
-  border: none;
+  /* border: none; */
+  border: 1px solid #5f9341;
+  /* border: 1px solid red */
   font-weight: bold;
 }
 
-/* 29) STYLE THE LIST ACCORDING TO THE DESIGN */
+/* Style the button according to the provided design */
+#delete-btn {
+  background: white;
+  color: #5f9341;
+}
+
 ul {
   margin-top: 20px;
   list-style: none;
